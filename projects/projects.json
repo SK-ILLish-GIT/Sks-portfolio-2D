@@ -1,0 +1,62 @@
+[
+  {
+    "name": "NA_TOURS",
+    "desc": "Efficient portfolio showcase website with streamlined admin capabilities for user management.",
+    "image": "NA_TOURS",
+    "category": "mern",
+    "links": {
+      "view": "https://github.com/SK-ILLish-GIT/SE-project",
+      "code": "https://github.com/SK-ILLish-GIT/SE-project"
+    }
+  },
+  {
+    "name": "SK’s Portfolio Website(3D)",
+    "desc": "A showcase website built using THREE.js library to enhance user experience.",
+    "image": "portfolio_OLD",
+    "category": "basicweb",
+    "links": {
+      "view": "https://github.com/SK-ILLish-GIT/SK-s_ROOM",
+      "code": "https://github.com/SK-ILLish-GIT/SK-s_ROOM"
+    }
+  },
+  {
+    "name": "SK’s Portfolio Website(OLD)",
+    "desc": "A showcase website built using HTML-CSS-JS to showcase my projects and skills.",
+    "image": "portfolio_OLD",
+    "category": "basicweb",
+    "links": {
+      "view": "https://github.com/SK-ILLish-GIT/SK-s_ROOM",
+      "code": "https://github.com/SK-ILLish-GIT/SK-s_ROOM"
+    }
+  },
+  {
+    "name": "SK-s_ROOM",
+    "desc": "A fun website built using THREE.js , GLTF models and GSAP animations",
+    "image": "SKsRoom",
+    "category": "basicweb",
+    "links": {
+      "view": "https://adorable-dodol-9c713b.netlify.app/",
+      "code": "https://github.com/SK-ILLish-GIT/SK-s_ROOM"
+    }
+  },
+  {
+    "name": "diceGame_2",
+    "desc": "A fun dice game built using HTML-CSS-JS",
+    "image": "diceGame",
+    "category": "mern",
+    "links": {
+      "view": "https://serene-bubblegum-135476.netlify.app",
+      "code": "https://github.com/SK-ILLish-GIT/diceGame_2"
+    }
+  },
+  {
+    "name": "gyuesNumber",
+    "desc": "A fun game built using HTML-CSS-JS",
+    "image": "guessNum",
+    "category": "mern",
+    "links": {
+      "view": "https://astounding-cendol-30f49b.netlify.app",
+      "code": "https://github.com/SK-ILLish-GIT/guessNum"
+    }
+  }
+]
