@@ -18,7 +18,12 @@
 
 <body oncontextmenu="return false">
 
-
+  <div class="preloader">
+    <div class="preloader-inner"></div>
+    <div class="preloader-text">
+      <h1>Welcome to My Website!</h1>
+    </div>
+  </div>
   <!-- navbar starts -->
   <header>
     <a href="/" class="logo"><i class="fas fa-shield-alt"></i> SK</a>
@@ -46,9 +51,11 @@
     <div class="content">
       <h2>Hi There,<br /> I'm SK <span>Sahil</span></h2>
       <p>i am into <span class="typing-text"></span></p>
-      <a href="#about" class="btn"><span>About Me</span>
-        <i class="fas fa-arrow-circle-down"></i>
-      </a>
+      <div class="abt-me-btn">
+        <a href="#about" class="btn"><span>About Me</span>
+          <i class="fas fa-arrow-circle-down"></i>
+        </a>
+      </div>
       <div class="socials">
         <ul class="social-icons">
           <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/sk-sahil-parvez-89a63021b/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
@@ -351,8 +358,6 @@
 
   </section>
   <!-- footer section ends -->
-
-
   <!-- scroll top btn -->
   <a href="#home" aria-label="ScrollTop" class="fas fa-angle-up" id="scroll-top"></a>
   <!-- scroll back to top -->

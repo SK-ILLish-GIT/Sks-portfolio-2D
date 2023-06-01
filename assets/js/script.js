@@ -56,6 +56,13 @@ $(document).ready(function () {
 
 });
 
+//loader
+// Wait for the page to fully load
+window.addEventListener('load', function () {
+    // Add the 'loaded' class to the body element
+    document.body.classList.add('loaded');
+});
+
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
@@ -64,14 +71,14 @@ document.addEventListener('visibilitychange',
         }
         else {
             document.title = "Come Back Soon!";
-            $("#favicon").attr("href", "assets/images/favhand.png");
+            $("#favicon").attr("href", "assets/images/favicon.png");
         }
     });
 
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["frontend development", "backend development", "DSA", "competitive programming"],
+    strings: ["Frontend Dev", "Backend Dev ", "DSA", "Coding"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
@@ -238,3 +245,4 @@ srtop.reveal('.experience .timeline .container', { interval: 400 });
 /* SCROLL CONTACT */
 srtop.reveal('.contact .container', { delay: 400 });
 srtop.reveal('.contact .container .form-group', { delay: 400 });
+

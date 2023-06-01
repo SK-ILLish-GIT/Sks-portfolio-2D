@@ -25,7 +25,7 @@ document.addEventListener('visibilitychange',
         }
         else {
             document.title = "Come Back Soon!";
-            $("#favicon").attr("href", "/assets/images/favhand.png");
+            $("#favicon").attr("href", "assets/images/favicon.png");
         }
     });
 
