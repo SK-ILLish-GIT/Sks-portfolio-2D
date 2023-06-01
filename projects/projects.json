@@ -12,7 +12,7 @@
   {
     "name": "SK’s Portfolio Website(3D)",
     "desc": "A showcase website built using THREE.js library to enhance user experience.",
-    "image": "portfolio_OLD",
+    "image": "portfolio3D",
     "category": "basicweb",
     "links": {
       "view": "https://sksportfolio3d.netlify.app/",

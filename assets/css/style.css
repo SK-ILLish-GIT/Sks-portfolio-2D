@@ -1101,8 +1101,17 @@ header .navbar ul li a:hover {
 
 /* contact section starts */
 .contact {
-  background: #e5ecfb;
+  background: rgb(0, 1, 43);
   min-height: 60vh;
+}
+.heading-contact {
+  font-size: 3.5rem;
+  color: rgb(255, 255, 255);
+  font-weight: 800;
+  text-align: center;
+}
+.heading-contact span {
+  color: rgb(255, 230, 0);
 }
 .contact .container {
   max-width: 1050px;
