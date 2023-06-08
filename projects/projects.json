@@ -50,7 +50,7 @@
     }
   },
   {
-    "name": "gyuesNumber",
+    "name": "guessNumber",
     "desc": "A fun game built using HTML-CSS-JS",
     "image": "guessNum",
     "category": "mern",

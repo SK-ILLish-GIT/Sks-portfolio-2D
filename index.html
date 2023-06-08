@@ -17,13 +17,16 @@
 </head>
 
 <body oncontextmenu="return false">
-
   <div class="preloader">
     <div class="preloader-inner"></div>
     <div class="preloader-text">
       <h1>Welcome to My Website!</h1>
     </div>
   </div>
+  <!-- audios -->
+  <audio id="backgroundMusic" src="./assets/music/gentle-rolling_waves_BG.mp3" type="audio/mpeg"></audio>
+  <audio id="click-sound" src="./assets/music/click1.mp3"></audio>
+  <audio id="click-sound2" src="./assets/music/click2.mp3"></audio>
   <!-- navbar starts -->
   <header>
     <a href="/" class="logo"><i class="fas fa-shield-alt"></i> SK</a>
@@ -38,6 +41,7 @@
         <li><a href="#work">Projects</a></li>
         <li><a href="#experience">Responsibility</a></li>
         <li><a href="#contact">Contact</a></li>
+        <li><a id="toggleButton" onclick="toggleAudio()">🎵</a></li>
       </ul>
     </nav>
   </header>
@@ -47,6 +51,7 @@
   <!-- hero section starts -->
   <section class="home" id="home">
     <div id="particles-js"></div>
+    <!-- <audio src="./assets/music/gentle-rolling_waves_BG.mp3" type="audio/mpeg" autoplay="true" controls></audio> -->
 
     <div class="content">
       <h2>Hi There,<br /> I'm SK <span>Sahil</span></h2>
@@ -64,6 +69,7 @@
           <!-- <li><a class="telegram" aria-label="Telegram" href="" target="_blank"><i class="fab fa-telegram-plane"></i></a></li> -->
           <li><a class="instagram" aria-label="Instagram" href="https://www.instagram.com/_sk_sp_/"><i class="fab fa-instagram" target="_blank"></i></a></li>
           <!-- <li><a class="dev" aria-label="Dev" href="https://dev.to/jigarsable" target="_blank"><i class="fab fa-dev"></i></a></li> -->
+          <li><a class="facebook" aria-label="Facebook" href="https://www.facebook.com/sksahil.parvez.2000/" target="_blank"><i class="fab fa-facebook"></i></a></li>
         </ul>
       </div>
     </div>
@@ -73,10 +79,9 @@
   </section>
   <!-- hero section ends -->
 
-
   <!-- about section starts -->
   <section class="about" id="about">
-    <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
+    <h2 class="heading heading-about"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
 
     <div class="row">
 
@@ -209,11 +214,11 @@
 
     </div>
 
-    <div class="viewall">
+    <!-- <div class="viewall">
       <a href="/projects" class="btn"><span>View All</span>
         <i class="fas fa-arrow-right"></i>
       </a>
-    </div>
+    </div> -->
 
   </section>
   <!-- work project section ends -->
@@ -349,8 +354,9 @@
 
           <a href="https://www.linkedin.com/in/sk-sahil-parvez-89a63021b/" class="fab fa-linkedin" aria-label="LinkedIn" target="_blank"></a>
           <a href="https://github.com/SK-ILLish-GIT" class="fab fa-github" aria-label="GitHub" target="_blank"></a>
+          <a href="https://www.facebook.com/sksahil.parvez.2000/" class="fab fa-facebook" aria-label="Facebook" target="_blank"></a>
+          <a href="https://www.instagram.com/_sk_sp_/" class="fab fa-instagram" aria-label="Instagram" target="_blank"></a>
           <a href="mailto:sksahilparvez2000@gmail.com" class="fas fa-envelope" aria-label="Mail" target="_blank"></a>
-          <!-- <a href="https://twitter.com/jigar_sable" class="fab fa-twitter" aria-label="Twitter" target="_blank"></a> -->
           <!-- <a href="https://t.me/lifecode5" class="fab fa-telegram-plane" aria-label="Telegram" target="_blank"></a> -->
         </div>
       </div>

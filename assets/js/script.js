@@ -63,6 +63,103 @@ window.addEventListener('load', function () {
     document.body.classList.add('loaded');
 });
 
+//audio
+var audio = document.getElementById("backgroundMusic");
+var toggleButton = document.getElementById("toggleButton");
+var isAudioPlaying = false;
+
+// Pause the audio initially
+audio.pause();
+toggleButton.innerText = "🎵";
+function toggleAudio() {
+    if (isAudioPlaying) {
+        audio.pause();
+        toggleButton.innerText = "🎵";
+    } else {
+        audio.play();
+        audio.volume = 0.2;
+        toggleButton.innerText = "🔇";
+    }
+    isAudioPlaying = !isAudioPlaying;
+}
+
+// Play the audio when the website loads
+// window.addEventListener("load", function () {
+//     audio.play();
+//     toggleButton.innerText = "🔇";
+//     isAudioPlaying = true;
+// });
+
+//click1 sound
+//Buttons to sound
+const aboutMeLink = document.querySelector('.abt-me-btn a');
+const resumeBtn = document.querySelector('.resumebtn a');
+const submitBtn = document.querySelector('.button-area');
+
+const clickSound = document.getElementById('click-sound');
+
+aboutMeLink.addEventListener('click', playClickSound);
+resumeBtn.addEventListener('click', playClickSound);
+submitBtn.addEventListener('click', playClickSound);
+
+// Function to play the click sound
+function playClickSound() {
+    clickSound.play();
+}
+
+//click2 sound
+const homeLink = document.querySelector('.navbar ul li a[href="#home"]');
+const aboutLink = document.querySelector('.navbar ul li a[href="#about"]');
+const skillsLink = document.querySelector('.navbar ul li a[href="#skills"]');
+const educationLink = document.querySelector('.navbar ul li a[href="#education"]');
+const projectsLink = document.querySelector('.navbar ul li a[href="#work"]');
+const responsibilityLink = document.querySelector('.navbar ul li a[href="#experience"]');
+const contactLink = document.querySelector('.navbar ul li a[href="#contact"]');
+
+const linkedInClick = document.querySelector('.socials .social-icons li a[href="https://www.linkedin.com/in/sk-sahil-parvez-89a63021b/"]');
+const githubClick = document.querySelector('.socials .social-icons li a[href="https://github.com/SK-ILLish-GIT"');
+const instagramClick = document.querySelector('.socials .social-icons li a[href="https://www.instagram.com/_sk_sp_/"]');
+const facebookClick = document.querySelector('.socials .social-icons li a[href="https://www.facebook.com/sksahil.parvez.2000/"]')
+
+const scrollUp = document.querySelector('#scroll-top');
+
+
+const footerLinkedIn = document.querySelector('.share a[href="https://www.linkedin.com/in/sk-sahil-parvez-89a63021b/"]');
+const footerGithub = document.querySelector('.share a[href="https://github.com/SK-ILLish-GIT"]');
+const footerInstagram = document.querySelector('.share a[href="https://www.instagram.com/_sk_sp_/"]');
+const footerFacebook = document.querySelector('.share a[href="https://www.facebook.com/sksahil.parvez.2000/"]');
+const footerMails = document.querySelector('.share a[href="mailto:sksahilparvez2000@gmail.com"]');
+
+const clickSound2 = document.getElementById('click-sound2');
+
+homeLink.addEventListener('click', playClickSound2);
+aboutLink.addEventListener('click', playClickSound2);
+skillsLink.addEventListener('click', playClickSound2);
+educationLink.addEventListener('click', playClickSound2);
+projectsLink.addEventListener('click', playClickSound2);
+responsibilityLink.addEventListener('click', playClickSound2);
+contactLink.addEventListener('click', playClickSound2);
+toggleButton.addEventListener('click', playClickSound2);
+
+linkedInClick.addEventListener('click', playClickSound2);
+githubClick.addEventListener('click', playClickSound2);
+instagramClick.addEventListener('click', playClickSound2);
+facebookClick.addEventListener('click', playClickSound2);
+
+scrollUp.addEventListener('click', playClickSound2);
+
+footerLinkedIn.addEventListener('click', playClickSound2);
+footerGithub.addEventListener('click', playClickSound2);
+footerInstagram.addEventListener('click', playClickSound2);
+footerFacebook.addEventListener('click', playClickSound2);
+footerMails.addEventListener('click', playClickSound2);
+
+// Function to play the click sound
+function playClickSound2() {
+    clickSound2.play();
+}
+
+
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
@@ -215,7 +312,7 @@ srtop.reveal('.home .content .btn', { delay: 200 });
 srtop.reveal('.home .image', { delay: 400 });
 srtop.reveal('.home .linkedin', { interval: 600 });
 srtop.reveal('.home .github', { interval: 800 });
-srtop.reveal('.home .twitter', { interval: 1000 });
+srtop.reveal('.home .facebook', { interval: 1000 });
 srtop.reveal('.home .telegram', { interval: 600 });
 srtop.reveal('.home .instagram', { interval: 600 });
 srtop.reveal('.home .dev', { interval: 600 });
